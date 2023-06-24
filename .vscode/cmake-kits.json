@@ -1,0 +1,6 @@
+[
+    {
+        "name": "clang-efiBuild",
+        "toolchainFile": "x64-efi.cmake"
+    }
+]
