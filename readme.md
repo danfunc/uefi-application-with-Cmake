@@ -1,5 +1,5 @@
 include以下にはEDKⅡ MedPkgのincludeディレクトリをコピーして使用しています。それらのライセンスについてはinclude以下のLicense.txtを参照してください
-このプロジェクトはcmake+Clangを使ってuefiアプリケーションを作成するためのテンプレートです。macOS Venturaで動作確認しています(Xcode command line tools と homebrewのllvm　がインストールされています)
+このプロジェクトはcmake+Clangを使ってuefiアプリケーションを作成するためのテンプレートです。macOS Venturaで動作確認しています(Xcode command line tools と homebrewのllvm及びlldがインストールされています)
 
 使い方:
 cmakeのtoolchainはx64-efi.cmakeを指定してください（vscode用のkitも用意してあります。clang-efiBuildを使ってください）あとはビルドするだけでサンプルアプリが利用できます。
